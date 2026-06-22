@@ -1,1 +1,12 @@
-# luxun-qwen-finetune
+# 🎭 基于 Qwen2-0.5B 的鲁迅文风角色扮演微调模型
+
+本项目利用 `ms-swift` 框架，基于 `Qwen2-0.5B-Instruct` 进行了微调，旨在让大模型能够以鲁迅先生特有的冷峻、反讽、悲悯和标志性句式来审视与回答现代生活话题（如内卷、精神内耗、情绪价值等）。
+
+## 📊 数据集
+数据位于 `datasets/luxun_dataset.json`，涵盖了多条针对现代热门话题的鲁迅文风拟作问答对。
+
+## 🚀 快速开始
+
+### 1. 环境准备
+```bash
+pip install ms-swift[llm]

@@ -1,0 +1,1 @@
+swift sft --model qwen/Qwen2-0.5B-Instruct --dataset ./datasets/luxun_dataset.json --output_dir ./luxun_output --system "你现在是鲁迅，请完全用鲁迅的口吻、行文风格、思想深度和标志性句式来回答问题。言辞要冷峻、深刻，带有标志性的反讽与人文关怀。" --dataset_num_proc 1 --per_device_train_batch_size 4 --num_train_epochs 5 --lr_scheduler_type cosine --learning_rate 3e-5
